@@ -1,0 +1,116 @@
+.calculator{
+    width: 320px;
+    height: 460px;
+    border-radius: 40px;
+    border: 3px solid rgb(156, 156, 156);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    gap: 10px;
+}
+.btn_cont{
+    display: flex;
+    gap: 10px;
+
+}
+.point,.division,.seven,.eight,.nine,.multi,.four,.five,.six,.sub,.one,.two,.three,.plus,.dbl_zero,.zero{
+    align-items: center;
+    justify-content: center;
+    color: pink; 
+    font-weight: bold;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    border-radius: 50%;
+    background-color: rgb(242, 222, 229);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 3px 2px peachpuff;
+    transition: all .05s ease-in-out;
+    text-shadow: 5px 2px 10px rgb(173, 102, 123);
+
+
+   
+}
+
+.result{
+
+    align-items: center;
+    justify-content: center;
+    color: pink; 
+    font-weight: bold;
+    text-align: center;
+    width: 130px;
+    height: 60px;
+    font-size: 2rem;
+    border-radius: 50px;
+    background-color: rgb(243, 228, 233);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 3px 2px peachpuff;
+    transition: all .05s ease-in-out;
+    text-shadow: 5px 2px 10px rgb(173, 102, 123);
+
+}
+.point:active,
+.division:active,
+.seven:active,
+.eight:active,
+.nine:active,
+.multi:active,
+.four:active,
+.five:active,
+.six:active,
+.sub:active,
+.one:active,
+.two:active,
+.three:active,
+.plus:active,
+.dbl_zero:active,
+.zero:active,
+.result:active,
+.ekran:active,
+.AC:active,
+.DE:active{
+    transform: scale(.95);
+}
+.AC,.DE{
+    align-items: center;
+    justify-content: center;
+    color: rgb(252, 120, 173); 
+    font-weight: bold;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    border-radius: 50%;
+    background-color: rgb(243, 228, 233);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 3px 2px peachpuff;
+    transition: all .05s ease-in-out;
+    text-shadow: 5px 2px 10px  rgb(173, 102, 123);
+}
+.ekran{
+   display: flex;
+   justify-content:end;
+   color: rgb(206, 42, 121);
+   width: 270px;
+   height: 60px;
+   border-radius: 0%;
+   text-align: right;
+   padding-inline: 10px;
+   letter-spacing: 2px;
+   font-weight: normal;
+   text-shadow: 1px 1px 1px rgb(255, 0, 119);
+   cursor: auto;
+   border-radius: 20px;
+   overflow: hidden;
+   text-wrap: nowrap;
+}
